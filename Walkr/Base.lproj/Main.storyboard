@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VMX-hQ-mMl">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -35,11 +36,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTQ-aR-myz">
-                                                <rect key="frame" x="46" y="63" width="301" height="46"/>
+                                                <rect key="frame" x="46" y="63" width="301" height="56"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">在《Walkr》你可以用「走路能量」來推進飛船，探索有趣、迷人、又充滿想像力的星球。
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -90,7 +91,7 @@
                                                                         <state key="normal" title="Button"/>
                                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                                         <connections>
-                                                                            <segue destination="WZc-Km-OiR" kind="show" id="mYz-ll-Phb"/>
+                                                                            <segue destination="Dck-kS-vdH" kind="show" id="tiC-bO-n1J"/>
                                                                         </connections>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#0001" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOr-aw-ZMm">
@@ -1245,15 +1246,6 @@
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caramel" translatesAutoresizingMaskIntoConstraints="NO" id="rd1-4B-lGB">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="焦糖頻果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqc-zC-0U1">
                                         <rect key="frame" x="139" y="0.0" width="82" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1287,21 +1279,30 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t67-UK-oRs">
-                                        <rect key="frame" x="45" y="512" width="269" height="62"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">蘋果蝙蝠的視覺只能看見紅色，喜歡用它尖尖的牙齒一口咬著蘋果，透過牙齒中間的小孔品嚐甘甜的蘋果汁。
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="整顆星球都不停的散發著混合蘋果與焦糖的香氣。焦糖海灘是宇宙中最著名的度假勝地之一。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwO-MR-u1g">
-                                        <rect key="frame" x="46" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="46" y="32" width="269" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caramel" translatesAutoresizingMaskIntoConstraints="NO" id="rd1-4B-lGB">
+                                        <rect key="frame" x="75" y="100" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="3iP-uF-kW0"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1348,10 +1349,10 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tT2-X2-paD">
-                                                <rect key="frame" x="0.0" y="231" width="360" height="771"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tT2-X2-paD">
+                                                <rect key="frame" x="0.0" y="235" width="360" height="788"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">對還沒有規律運動習慣的人來說，直接進入高強度間歇性運動（HIIT）或馬拉松訓練課表，可能令人心生抗拒；「走路」相較容易許多，但可不是偶一為之心血來潮，從家裡走到巷口超商就算運動。再簡單的健康生活都需要經過事先規劃，以下 3 個步驟幫你在日常生活中循序漸進、多走幾步路養成步行習慣。
+                                                <string key="text">對還沒有規律運動習慣的人來說，直接進入高強度間歇性運動（HIIT）或馬拉松訓練課表，可能令人心生抗拒；「走路」相較容易許多，但可不是偶一為之心血來潮，從家裡走到巷口超商就算運動。再簡單的健康生活都需要經過事先規劃，以下 3 個步驟幫你在日常生活中循序漸進、多走幾步路養成步行習慣。
 
 把散步變成早晨例行任務
 起床來杯咖啡，是許多人的開機儀式，不過到戶外走走呼吸新鮮空氣也有同樣效果！BBC 科學節目主持人邁克爾·莫斯利（Michael Mosley）醫生分享：「早晨出去走路多接觸自然光線助於減少幫助睡眠的褪黑激素（melatonin）的產生，也讓你白天更有精神、更清醒。」
@@ -1370,7 +1371,7 @@
 
 你需要的是更精準的紀錄工具，例如智慧手錶或計步器 App 《Walkr》來追蹤每天的步數。具體的數據能幫助你更明確掌握自己的走路狀況，並且幫助你確實養成習慣。當你知道自己的每日步數，接下來試著將每週總步數增加 5-10%，這才是一個正確的目標設定：有一點點小挑戰性，但是可以做到。
 
-小迷思：原本每天只走 2,000 步，卻雄心壯志想一口氣挑戰每天 10,000 步嗎？不僅可能有反效果，給自己太大的壓力反而增加失敗的機率，更不用說其實沒有必要唷！</mutableString>
+小迷思：原本每天只走 2,000 步，卻雄心壯志想一口氣挑戰每天 10,000 步嗎？不僅可能有反效果，給自己太大的壓力反而增加失敗的機率，更不用說其實沒有必要唷！</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1384,7 +1385,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="I0F-p5-6gA"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="0.0" height="1350"/>
+                                        <size key="value" width="0.0" height="1020"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -1433,7 +1434,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMX-M0-CGu">
                                                 <rect key="frame" x="0.0" y="234" width="360" height="911"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">當你在家工作（Work From Home, WFH）時，你可能會愛上穿著柔軟的睡褲上班的新生活，然而，也有可能會發現自己的活動量大幅減少，導致肌肉僵硬、精神疲憊等，對長期的健康產生一些負面影響。想想看，你可能整天都坐在電腦前參加各種視訊會議，不用動身就能跟同事、客戶保持溝通，而這樣的工作環境讓你難以像在辦公室一樣活躍：搭乘大眾運輸通勤、走來走去參加會議、或者只是走到同事辦公桌旁聊天。
+                                                <string key="text">當你在家工作（Work From Home, WFH）時，你可能會愛上穿著柔軟的睡褲上班的新生活，然而，也有可能會發現自己的活動量大幅減少，導致肌肉僵硬、精神疲憊等，對長期的健康產生一些負面影響。想想看，你可能整天都坐在電腦前參加各種視訊會議，不用動身就能跟同事、客戶保持溝通，而這樣的工作環境讓你難以像在辦公室一樣活躍：搭乘大眾運輸通勤、走來走去參加會議、或者只是走到同事辦公桌旁聊天。
 
 讓我們找到一些有趣又容易實踐的方法，將運動和活動量融入 WFH 的日常中吧！
 
@@ -1449,7 +1450,7 @@
 No-sit meetings：站著開會
 這個小提示可能不適用於長時間的會議，但是，如果你經常需要參加簡短的視訊會議，可能是晨間例行會議、或是與同事或客戶確認進度的快速通話，那麼你可以在會議間嘗試站立或甚至原地踏步，這對你的健康大有好處。即使你只是緩慢地踏步，這也是有助於增加步數、促進新陳代謝和血液循環的好方法，而且不會讓你氣喘吁吁。
 
-最後，記得讓自己享受這個改變的過程，不要讓長時間坐著的習慣阻礙你。透過增加活動量，你會感覺更健康、工作更有效率，並且享受照顧好自己的成就感與樂趣！</mutableString>
+最後，記得讓自己享受這個改變的過程，不要讓長時間坐著的習慣阻礙你。透過增加活動量，你會感覺更健康、工作更有效率，並且享受照顧好自己的成就感與樂趣！</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1463,7 +1464,7 @@ No-sit meetings：站著開會
                                 <viewLayoutGuide key="frameLayoutGuide" id="mxA-jL-CaE"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="0.0" height="1350"/>
+                                        <size key="value" width="0.0" height="1140"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -1510,9 +1511,9 @@ No-sit meetings：站著開會
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYx-lb-kF0">
-                                                <rect key="frame" x="0.0" y="256" width="360" height="919"/>
+                                                <rect key="frame" x="0.0" y="256" width="360" height="936"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">你聽說了「走路」帶來的各種好處而決定要踏出第一步，無論你是走路新手、健走老鳥，還是走路通勤的上班族，每天聽著重複的音樂播放清單，難免感到有點無聊。何不試著混搭一場聽覺饗宴？下面有幾個讓你不再感到前路漫漫的有趣選擇：
+                                                <string key="text">你聽說了「走路」帶來的各種好處而決定要踏出第一步，無論你是走路新手、健走老鳥，還是走路通勤的上班族，每天聽著重複的音樂播放清單，難免感到有點無聊。何不試著混搭一場聽覺饗宴？下面有幾個讓你不再感到前路漫漫的有趣選擇：
 
 走萬里路也聽萬卷書
 常想多看書卻苦於時間太零碎？現在你可以用耳朵來閱讀！選擇你喜歡的方式來吸收一本書：
@@ -1533,7 +1534,7 @@ No-sit meetings：站著開會
 想找回內心平靜或訓練專注力不一定得靜坐冥想，富有變化的正念走路，也是一種歷史悠久的調和身心的方式。有許多方便的冥想應用程式（如 《Calm》或 《Headspace》）都提供了引導式正念走路，你可以在步行時更放鬆的體驗周圍環境，不知不覺忘記繁忙生活的鳥事。
 
 加碼小技巧：把散步變成遊戲
-散步也可以是充滿趣味的遊戲，讓你的步行體驗更有樂趣！《Walkr》將每天的走路步數轉為傳奇宇宙飛船《Walkr》的燃料，帶你開發超乎想像的未知星球，享受當宇宙艦長的樂趣，iOS 及 Android 皆能免費下載。</mutableString>
+散步也可以是充滿趣味的遊戲，讓你的步行體驗更有樂趣！《Walkr》將每天的走路步數轉為傳奇宇宙飛船《Walkr》的燃料，帶你開發超乎想像的未知星球，享受當宇宙艦長的樂趣，iOS 及 Android 皆能免費下載。</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1547,7 +1548,7 @@ No-sit meetings：站著開會
                                 <viewLayoutGuide key="frameLayoutGuide" id="qsN-A7-Ced"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="0.0" height="1350"/>
+                                        <size key="value" width="0.0" height="1195"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -1596,7 +1597,7 @@ No-sit meetings：站著開會
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Juf-76-nM9">
                                                 <rect key="frame" x="0.0" y="256" width="360" height="789"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">「散策(さんさく)」是源自於日本的詞句，相較於「散步」的附近隨意走走，更帶有邊欣賞四周景致的意味；這兩個看似相似的單詞，因為心境和沈浸感的不同，進而被賦予了不同的意義。
+                                                <string key="text">「散策(さんさく)」是源自於日本的詞句，相較於「散步」的附近隨意走走，更帶有邊欣賞四周景致的意味；這兩個看似相似的單詞，因為心境和沈浸感的不同，進而被賦予了不同的意義。
 
 那麼，在獨自行走時，因生活中太過熟悉顯得有些無聊的步行路線，是否有些小方法能夠讓步行變得有趣起來呢？在下一趟散步時，不妨試試帶著幾位小夥伴一起上路吧：
 
@@ -1615,7 +1616,7 @@ No-sit meetings：站著開會
 3 號夥伴：喜愛的漫步夥伴
 呼朋引伴，讓更多夥伴豐富你的散策之旅吧！在過去，許多跑者、健走者會選擇音樂相伴，同時維持步伐頻率。而現在，感謝科技提供我們更多選擇，從 Podcast 到有聲書、語言學習應用程式，無論是想要聽人聊天、了解趨勢，或是利用零碎時間學習新知，你總能找到喜愛的漫步夥伴。
 
-《Walkr》是一款結合手機計步器與有趣的銀河探索遊戲：透過自動記錄走路步數，追蹤並記錄每天消耗的熱量，讓你一邊探索迷人的銀河系，一邊達成健身目標。找到最適合你的方法，讓走路變成一件令人期待的事！</mutableString>
+《Walkr》是一款結合手機計步器與有趣的銀河探索遊戲：透過自動記錄走路步數，追蹤並記錄每天消耗的熱量，讓你一邊探索迷人的銀河系，一邊達成健身目標。找到最適合你的方法，讓走路變成一件令人期待的事！</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1629,7 +1630,7 @@ No-sit meetings：站著開會
                                 <viewLayoutGuide key="frameLayoutGuide" id="pXh-ZF-8Id"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="0.0" height="1350"/>
+                                        <size key="value" width="0.0" height="1050"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -1676,9 +1677,9 @@ No-sit meetings：站著開會
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xeu-EZ-sCZ">
-                                                <rect key="frame" x="0.0" y="231" width="360" height="919"/>
+                                                <rect key="frame" x="0.0" y="231" width="360" height="954"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">「日行一萬步，醫生遠離我。」我們都聽過類似的說法：如果每天沒有走到 10,000 步，那麼可能說明你走得還不夠。然而，這是真的嗎？如果沒有辦法達成日行萬步的目標，我們應該因此感到內疚嗎？
+                                                <string key="text">「日行一萬步，醫生遠離我。」我們都聽過類似的說法：如果每天沒有走到 10,000 步，那麼可能說明你走得還不夠。然而，這是真的嗎？如果沒有辦法達成日行萬步的目標，我們應該因此感到內疚嗎？
 
 簡短的回答：絕對不是。 事實上，每個人的狀況很不一樣，有可能你一天的行程已經被工作、上課、育兒或其他重要活動塞滿，或者缺乏可以長時間走路的舒適或安全的環境，也有可能根據你的年齡或身體狀況，走路其實並不是最適合你的活動選項。
 
@@ -1700,7 +1701,7 @@ No-sit meetings：站著開會
 
 或者，你可能是因為覺得走路很無聊，而提不起勁開始走路嗎？不妨嘗試看看我們對於享受獨自散步的一些想法吧！
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1714,7 +1715,7 @@ No-sit meetings：站著開會
                                 <viewLayoutGuide key="frameLayoutGuide" id="sAb-79-UPy"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="0.0" height="1350"/>
+                                        <size key="value" width="0.0" height="1180"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -1748,14 +1749,14 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="地球是太陽系裡最美麗的一顆星球，地表的 70% 由海洋所覆蓋，上面孕育著各式各樣的生命。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTe-2r-vTJ">
-                                        <rect key="frame" x="46" y="32" width="269" height="33"/>
+                                        <rect key="frame" x="46" y="32" width="269" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="earth01" translatesAutoresizingMaskIntoConstraints="NO" id="OzA-jz-NU9">
-                                        <rect key="frame" x="130" y="404" width="100" height="100"/>
+                                        <rect key="frame" x="130" y="426" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1764,28 +1765,28 @@ No-sit meetings：站著開會
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人類" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktt-hL-3Tj">
-                                        <rect key="frame" x="160" y="369" width="41" height="24"/>
+                                        <rect key="frame" x="160" y="391" width="41" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREATURE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iM-lP-N4b">
-                                        <rect key="frame" x="136" y="341" width="85" height="20"/>
+                                        <rect key="frame" x="136" y="363" width="85" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" name="AccentColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="就是人類嘛 ... 你知道的。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lc-aG-lSw">
-                                        <rect key="frame" x="111" y="512" width="140" height="15"/>
+                                        <rect key="frame" x="100" y="534" width="163" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="earth" translatesAutoresizingMaskIntoConstraints="NO" id="CbL-AB-B5s">
-                                        <rect key="frame" x="50" y="67" width="260" height="260"/>
+                                        <rect key="frame" x="50" y="95" width="260" height="260"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1805,7 +1806,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RBp-d5-WY6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2827" y="-6"/>
+            <point key="canvasLocation" x="2826.7175572519081" y="-6.3380281690140849"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6pl-TS-spb">
@@ -1827,9 +1828,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="終年降雨與潮溼的海風，漂浮在空中的海洋固定維持在 28 度的舒服水溫，孕育出永無止盡的生命。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGj-bL-E2W">
-                                        <rect key="frame" x="45" y="32" width="276" height="33"/>
+                                        <rect key="frame" x="45" y="32" width="276" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1857,14 +1858,14 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="潮溼塔克的身體像水一樣的透明且柔軟，而且皮膚非常潮溼。即使如此，他們還是非常討厭淋到雨。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOs-Dj-cMe">
-                                        <rect key="frame" x="45" y="512" width="276" height="45"/>
+                                        <rect key="frame" x="45" y="512" width="276" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="cRT-qr-WUP">
-                                        <rect key="frame" x="74" y="73" width="220" height="220"/>
+                                        <rect key="frame" x="73" y="90" width="220" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1908,7 +1909,7 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="滾燙的岩漿在地表之下流動，偶爾會變成高溫的氣體與火焰噴出地表，燃燒的熱量可以提供給生物維生。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbK-Pf-OKy">
                                         <rect key="frame" x="46" y="32" width="269" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1938,14 +1939,14 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="燃燒塔克的動作非常的迅速和靈活，但他們對於容易不小心讓碰到的東西燃燒起來感到非常的困擾。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0w-fK-oUn">
-                                        <rect key="frame" x="45" y="512" width="270" height="40"/>
+                                        <rect key="frame" x="45" y="512" width="270" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lava" translatesAutoresizingMaskIntoConstraints="NO" id="elN-ys-RAs">
-                                        <rect key="frame" x="71" y="94" width="220" height="220"/>
+                                        <rect key="frame" x="71" y="102" width="220" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1989,7 +1990,7 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="終年燃燒的火焰星球，據說星球內部是邪惡博士製作的機械心臟，偶爾會從地心傳來一陣陣的衝擊聲。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ex-fy-8H1">
                                         <rect key="frame" x="46" y="32" width="269" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2019,16 +2020,16 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rw3-OQ-z9x">
-                                        <rect key="frame" x="45" y="512" width="269" height="58"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">火焰波利的身體猶如一團透明的火焰，因此他們的生活不需要其他光源，困擾是睡覺的時候還是很亮。
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flame" translatesAutoresizingMaskIntoConstraints="NO" id="pNI-Ou-uD2">
-                                        <rect key="frame" x="63" y="80" width="230" height="230"/>
+                                        <rect key="frame" x="63" y="96" width="230" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2062,15 +2063,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pearl" translatesAutoresizingMaskIntoConstraints="NO" id="zwa-En-FNm">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="珍珠港" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glu-lo-uDj">
                                         <rect key="frame" x="149" y="0.0" width="62" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2079,9 +2071,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="港邊的小船來來往往，在奶茶海裡打撈著最 Q 彈的的珍珠。每年還有知名的珍珠之王比賽在這裡舉辦。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oou-ok-LZp">
-                                        <rect key="frame" x="45" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="45" y="32" width="269" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2111,12 +2103,21 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="波霸珍珠烤得太焦就會變成波霸星人，熱愛珍珠的他們會捧著好吃的珍珠四處推薦：咬一口看看嘛！很Ｑ喔！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-mh-E8I">
-                                        <rect key="frame" x="45" y="512" width="269" height="43"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pearl" translatesAutoresizingMaskIntoConstraints="NO" id="zwa-En-FNm">
+                                        <rect key="frame" x="75" y="99" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="0NI-eD-2PJ"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2129,7 +2130,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPd-QF-db2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6795" y="-6"/>
+            <point key="canvasLocation" x="6794.6564885496182" y="-6.3380281690140849"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1wV-qE-PKL">
@@ -2143,15 +2144,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hami" translatesAutoresizingMaskIntoConstraints="NO" id="h3W-z0-cJC">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雪瓜之星" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zY0-uy-rrS">
                                         <rect key="frame" x="139" y="0.0" width="82" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2160,9 +2152,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="整顆星球都是水果蜜蜂的巢穴，濃郁的香味蔓延四周好幾光年，哈密瓜果汁在太空中也是甜甜的補給品。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkN-a9-Ju2">
-                                        <rect key="frame" x="45" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="45" y="32" width="269" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2192,12 +2184,21 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="水果蜜蜂屁股圓圓的，飛起來搖頭晃腦，喜歡集體行動並採集哈密瓜汁回去製成蜂蜜。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyb-qH-chE">
-                                        <rect key="frame" x="45" y="512" width="269" height="43"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hami" translatesAutoresizingMaskIntoConstraints="NO" id="h3W-z0-cJC">
+                                        <rect key="frame" x="75" y="101" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="PVM-Xx-Asa"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2210,7 +2211,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3a-X9-PhZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7489" y="-6"/>
+            <point key="canvasLocation" x="7487.7862595419847" y="-6.3380281690140849"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GYm-Oc-qik">
@@ -2224,15 +2225,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banana" translatesAutoresizingMaskIntoConstraints="NO" id="yIK-y2-mR2">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="香蕉船" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdy-cO-cY6">
                                         <rect key="frame" x="149" y="0.0" width="62" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2241,9 +2233,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="據說曾經是某個嗜甜如命星球的殖民地，後來越來越多甜食者居住，星球上的胖肥胖百分比為 98.3 %。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmf-DC-GMY">
-                                        <rect key="frame" x="45" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="45" y="32" width="269" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2273,12 +2265,21 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="肥胖史萊姆因為吃了太多甜食而體重過重，他們移動的速度非常緩慢而且非常貪吃，每天除了吃就是睡。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxF-Od-b7v">
-                                        <rect key="frame" x="45" y="512" width="269" height="43"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banana" translatesAutoresizingMaskIntoConstraints="NO" id="yIK-y2-mR2">
+                                        <rect key="frame" x="74" y="103" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="U0G-3S-UEj"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2305,15 +2306,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="TNV-Pn-tpe">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="乳牛王" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfo-0I-wig">
                                         <rect key="frame" x="149" y="0.0" width="62" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2347,17 +2339,26 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="牛奶波利是牛奶照射到太空輻射之後演化成的物種，和乳牛一樣溫和善良，最喜歡和牛群躲在一起睡午覺。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOu-J2-Lyj">
                                         <rect key="frame" x="45" y="512" width="269" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一年四季盛產牛奶的星球，口感香淳又濃稠，是製作銀河國王最喜歡的甜點最重要的原料之一。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wan-RF-g2D">
-                                        <rect key="frame" x="46" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="46" y="32" width="269" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="TNV-Pn-tpe">
+                                        <rect key="frame" x="73" y="104" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="n0p-qv-iyQ"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2370,7 +2371,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YOW-59-H8U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4147" y="-744"/>
+            <point key="canvasLocation" x="4145.801526717557" y="-744.36619718309862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kmn-ls-dHY">
@@ -2384,15 +2385,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="4lL-RG-BAF">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="喵喵毛球" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2To-B1-L9L">
                                         <rect key="frame" x="139" y="0.0" width="82" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2401,9 +2393,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="軟綿綿的毛線纏繞整顆星球，各種不同顏色的絲綢和布料都可以在這顆星球上找到，是宇宙布料中樞。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIb-yV-Jv2">
-                                        <rect key="frame" x="45" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="45" y="32" width="269" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2431,12 +2423,21 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="長腳貓咪的長腳又細又長，織布的手藝非常精巧而且細膩，以各種不同的美麗編織圖騰揚名全宇宙。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbi-gb-uU4">
-                                        <rect key="frame" x="45" y="512" width="269" height="43"/>
+                                        <rect key="frame" x="45" y="512" width="269" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="4lL-RG-BAF">
+                                        <rect key="frame" x="75" y="100" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="XQe-s8-8pP"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2449,7 +2450,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOC-8s-bg5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4874" y="-744"/>
+            <point key="canvasLocation" x="4870.9923664122134" y="-744.36619718309862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tkt-i4-MIa">
@@ -2463,15 +2464,6 @@ No-sit meetings：站著開會
                                 <rect key="frame" x="17" y="140" width="360" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panda" translatesAutoresizingMaskIntoConstraints="NO" id="Leg-se-aXb">
-                                        <rect key="frame" x="75" y="86" width="211" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黑白竹園" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2n-3f-wt9">
                                         <rect key="frame" x="139" y="0.0" width="82" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2480,9 +2472,9 @@ No-sit meetings：站著開會
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="巨大的熊貓每天只愛吃竹子，牠的肚子就像巨大的草原般一望無際，躺在上面柔軟如床鋪。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CX7-zN-0wV">
-                                        <rect key="frame" x="45" y="32" width="269" height="46"/>
+                                        <rect key="frame" x="45" y="32" width="269" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2512,10 +2504,19 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黑白塔克隱身在熊貓身旁很難被發現，他們喜歡吃大熊貓吃剩下的竹子渣渣。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-Q5-dKY">
                                         <rect key="frame" x="45" y="512" width="269" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panda" translatesAutoresizingMaskIntoConstraints="NO" id="Leg-se-aXb">
+                                        <rect key="frame" x="75" y="97" width="211" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="dVR-V0-lVA"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2528,7 +2529,7 @@ No-sit meetings：站著開會
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVS-jU-QP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5567" y="-744"/>
+            <point key="canvasLocation" x="5565.6488549618316" y="-744.36619718309862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Zuy-qL-Rl4">
@@ -2561,7 +2562,7 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="巨鯨厭倦了一直躲在深海裡的生活，所以決定出來看一下外面的世界長怎麼樣。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Og4-Pk-bSU">
                                         <rect key="frame" x="45" y="32" width="269" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2591,7 +2592,7 @@ No-sit meetings：站著開會
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="飛魚是巨鯨的老朋友也是他的衝浪老師，一直在教導他如何在水上玩耍。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9n-lm-VRW">
                                         <rect key="frame" x="45" y="512" width="269" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
